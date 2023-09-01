@@ -1,0 +1,69 @@
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Added margin to separate from the edges */
+  }
+  
+  /* Update card appearance */
+  .list {
+    border: 1px solid #e0e0e0;
+    min-height: 100px; /* Adjust min-height based on your design */
+    border-radius: 8px;
+    background-color: white; /* Set background color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+  }
+  
+  /* Increase spacing between tasks */
+  .app-task {
+    margin-bottom: 10px;
+  }
+  
+  /* Update empty list message appearance */
+  .empty-label {
+    font-size: 1.5em;
+    padding-top: 20px;
+    text-align: center;
+    opacity: 0.4;
+  }
+  
+  /* Remove opacity from placeholder during dragging */
+  .cdk-drag-placeholder {
+    opacity: 1;
+  }
+  
+  /* Add animations for dragging */
+  .cdk-drag-animating {
+    transition: transform 250ms;
+  }
+  .list {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light gray background */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Add padding for spacing */
+    margin-bottom: 20px; /* Space between cards */
+  }
+  
+  /* Style for headings */
+  .container h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for empty list message */
+  .empty-label {
+    font-size: 1.2em;
+    padding-top: 20px;
+    text-align: center;
+    opacity: 0.6;
+  }
+  
+  /* Remove placeholder opacity during dragging */
+  .cdk-drag-placeholder {
+    opacity: 1;
+  }
+  
+  /* Animation for dragging */
+  .cdk-drag-animating {
+    transition: transform 250ms;
+  }

@@ -1,0 +1,8 @@
+<mat-card class="item mb-3" *ngIf="task" (dblclick)="edit.emit(task)">
+  <div class="content">
+    <h2 class="title">{{ task.title }}</h2>
+    <p class="description">{{ task.description }}</p>
+    
+    <p class="duedate">Due Date: {{ task.dueDate | date }}</p>
+  </div>
+</mat-card>

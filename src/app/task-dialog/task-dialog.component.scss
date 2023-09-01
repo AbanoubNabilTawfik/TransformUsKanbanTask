@@ -1,0 +1,20 @@
+.dialog-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .dialog-actions button[mat-button] {
+    margin-right: 10px;
+  }
+  
+  /* Adjust styling for the delete button */
+  .dialog-actions button[mat-mini-fab] {
+    margin-left: 20px;
+  }
+  

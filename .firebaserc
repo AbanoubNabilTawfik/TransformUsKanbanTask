@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "doctor-diet-ffeb1": {
+      "hosting": {
+        "kanbantask": [
+          "doctor-diet-ffeb1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "doctor-diet-ffeb1"
+  }
+}
